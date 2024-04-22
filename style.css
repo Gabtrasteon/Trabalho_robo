@@ -1,17 +1,132 @@
+@font-face {
+    font-family: "fonte";
+    src: url("fontes/idroid.otf");
+  }
 *{
+    padding: 1px;
     margin: 0px;
-    padding: 0px;
+}
+body{
+    background-color: #467946;
 }
 header{
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    height: 20em;
+    background: linear-gradient(to top, rgb(86 155 23), #65ff05);
+    height: 15em;
     color: white;
-    background: linear-gradient(to top, green,rgb(0, 95, 0));
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.552);
 }
 header>h1{
-    transform: translateY(4em);
+    position: relative;
+    top: 1em;
+    margin: auto;
+}
+header>p{
+    position: relative;
+    top: 5em;
+    margin: auto;
+}
+header>nav{
+    position: absolute;
+    top: 13em;
+}
+header>nav>a{
+    color: rgb(255, 255, 255) !important;
+    padding: 1px 10px;
+    text-decoration: none;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: calc(50% + 237px);
+    height: 139em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.552);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+section>div>h3{
+    width: 100%;
+    background: linear-gradient(to right, #a4ffa4,white);
+    padding-left: 10px;
+}
+section>div>img{
+    width: 100%;
+}
+section>div>img#muie{
+    width: 100%;
+    padding: 10px 0px;
+}
+section>div>img#rb{
+    width: 50%;
+    margin-left: 23%;
+    padding: 10px 0px;
+
+}
+div#video{
+    padding: 10px;
+    margin-left: -10px;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    background-color: #338400;
+}
+div#video>img#img{
+    height: 83%;
+    border-radius: 3em;
+    width: 80%;
+    margin-top: 2em;
+}
+
+div#final{
+    height: 24em;
+    background-color: rgba(47, 236, 236, 0.783);
+    margin-top: 14px;
+    border-radius: 10px;
+}
+
+section>div#final>p#tt{
+    width: 97.8%;
+    background-color: #338400;
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+section>div#final>p{
+    padding: 10px;
+}
+section>div#final>div#direita{
+    padding: 0px 25px;
+    text-align: left;
+    margin-top: 0em;
+}
+section>div#final>div#esqueda{
+    padding: 0px 25px;
+    text-align: right;
+    margin-top: -10em;
+}
+ul{
+    list-style-type: none;
+}
+li::before{
+    content: "\2713";
+    margin-right: 10px; 
+}
+p#f{
+    padding: 10px;
+}
+div#ftp{
+    height: 29px;
+    width: auto;
+    border-radius: 0px 0px 10px 10px;
+    margin-right: -10px;
+    margin-top: 20px;
+    margin-left: -10px;
+    display: block;
+    background-color: #65ff05;
+}
+div#ftp>p{
+    text-align: center;
 }

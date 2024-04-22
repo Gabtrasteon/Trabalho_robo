@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 20em;
+    color: white;
+    background: linear-gradient(to top, green,rgb(0, 95, 0));
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
+}
+header>h1{
+    transform: translateY(4em);
+}

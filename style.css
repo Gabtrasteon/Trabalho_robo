@@ -39,7 +39,6 @@ section{
     background-color: rgb(255, 255, 255);
     margin: auto;
     width: calc(50% + 237px);
-    height: 139em;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.552);
     border-radius: 10px;
     margin-top: 10px;
@@ -57,6 +56,10 @@ div#bug{
 }
 div#bug img{
     width: 80%;
+    height: auto;
+}
+div#bug img:last-child{
+    width: 100%;
     height: auto;
 }
 
@@ -79,12 +82,19 @@ section>div>img#rb{
 
 }
 div#video{
+    display: flex;
+    justify-content: center;
     padding: 10px;
     margin-left: -10px;
     width: 100%;
     height: 20%;
     text-align: center;
     background-color: #338400;
+}
+#link{
+    width: 70%;
+    display: flex;
+    justify-content: center;
 }
 div#video>img#img{
     height: 83%;
@@ -94,14 +104,12 @@ div#video>img#img{
 }
 
 div#final{
-    height: 24em;
     background-color: rgba(47, 236, 236, 0.783);
     margin-top: 14px;
     border-radius: 10px;
 }
 
 section>div#final>p#tt{
-    width: 97.8%;
     background-color: #338400;
     color: white;
     padding: 10px;
@@ -130,7 +138,7 @@ li::before{
 p#f{
     padding: 10px;
 }
-div#ftp{
+#ftp{
     height: 29px;
     width: auto;
     border-radius: 0px 0px 10px 10px;
@@ -140,6 +148,6 @@ div#ftp{
     display: block;
     background-color: #65ff05;
 }
-div#ftp>p{
+#ftp>p{
     text-align: center;
 }

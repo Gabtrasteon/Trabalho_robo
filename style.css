@@ -1,7 +1,7 @@
 @font-face {
     font-family: "fonte";
     src: url("fontes/idroid.otf");
-  }
+}
 *{
     padding: 1px;
     margin: 0px;
@@ -45,6 +45,19 @@ section{
     margin-top: 10px;
     padding: 10px;
     font-size: 17px;
+}
+picture#al{
+    display: flex;
+    justify-content: center;
+}
+div#bug{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div#bug img{
+    width: 80%;
+    height: auto;
 }
 
 section>div>h3{
